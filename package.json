@@ -1,0 +1,18 @@
+{
+  "name": "sports-iq",
+  "version": "1.0.0",
+  "description": "Multi-sport live scores and facilities website",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm install && npm run build && cd ../server && npm install",
+    "start": "node server/index.js",
+    "test:schema": "node verify.cjs"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

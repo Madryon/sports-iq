@@ -1,0 +1,26 @@
+{
+  "name": "sports-iq-server",
+  "version": "1.0.0",
+  "description": "Backend API server for Sports-IQ multi-sport dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "sports",
+    "dashboard",
+    "api",
+    "scores"
+  ],
+  "author": "Sports-IQ Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

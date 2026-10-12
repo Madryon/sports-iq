@@ -1,0 +1,167 @@
+[
+  {
+    "key": "cricket",
+    "name": "Cricket",
+    "icon": "🏏",
+    "color": "#16a34a",
+    "provider": "cricket",
+    "enabled": true,
+    "hasLive": true,
+    "description": "Live cricket scores, fixtures, and results from international and domestic leagues."
+  },
+  {
+    "key": "football",
+    "name": "Football",
+    "icon": "⚽",
+    "color": "#2563eb",
+    "provider": "football",
+    "enabled": true,
+    "hasLive": true,
+    "description": "Football scores and fixtures from leagues around the world."
+  },
+  {
+    "key": "f1",
+    "name": "Formula 1",
+    "icon": "🏎️",
+    "color": "#dc2626",
+    "provider": "f1",
+    "enabled": true,
+    "hasLive": true,
+    "description": "F1 race results, qualifying, and upcoming Grand Prix events."
+  },
+  {
+    "key": "chess",
+    "name": "Chess",
+    "icon": "♟️",
+    "color": "#78716c",
+    "provider": "chess",
+    "enabled": true,
+    "hasLive": true,
+    "description": "Live chess games and broadcasts from Lichess."
+  },
+  {
+    "key": "hockey",
+    "name": "Hockey",
+    "icon": "🏑",
+    "color": "#0891b2",
+    "provider": "apisports",
+    "apiSportsLeague": "hockey",
+    "enabled": true,
+    "hasLive": true,
+    "description": "Field and ice hockey live scores and fixtures."
+  },
+  {
+    "key": "tennis",
+    "name": "Tennis",
+    "icon": "🎾",
+    "color": "#ca8a04",
+    "provider": "thesportsdb",
+    "enabled": true,
+    "hasLive": false,
+    "description": "Tennis fixtures and results from ATP, WTA, and Grand Slams."
+  },
+  {
+    "key": "badminton",
+    "name": "Badminton",
+    "icon": "🏸",
+    "color": "#7c3aed",
+    "provider": "thesportsdb",
+    "enabled": true,
+    "hasLive": false,
+    "description": "Badminton tournament schedules and results."
+  },
+  {
+    "key": "volleyball",
+    "name": "Volleyball",
+    "icon": "🏐",
+    "color": "#ea580c",
+    "provider": "apisports",
+    "apiSportsLeague": "volleyball",
+    "enabled": true,
+    "hasLive": true,
+    "description": "Volleyball live scores from leagues worldwide."
+  },
+  {
+    "key": "basketball",
+    "name": "Basketball",
+    "icon": "🏀",
+    "color": "#f97316",
+    "provider": "apisports",
+    "apiSportsLeague": "basketball",
+    "enabled": true,
+    "hasLive": true,
+    "description": "Basketball live scores including NBA, EuroLeague, and more."
+  },
+  {
+    "key": "kabaddi",
+    "name": "Kabaddi",
+    "icon": "🤼",
+    "color": "#e11d48",
+    "provider": "thesportsdb",
+    "enabled": true,
+    "hasLive": false,
+    "description": "Kabaddi fixtures and results from PKL and international tournaments."
+  },
+  {
+    "key": "rugby",
+    "name": "Rugby",
+    "icon": "🏉",
+    "color": "#059669",
+    "provider": "apisports",
+    "apiSportsLeague": "rugby",
+    "enabled": true,
+    "hasLive": true,
+    "description": "Rugby union and league scores from around the globe."
+  },
+  {
+    "key": "baseball",
+    "name": "Baseball",
+    "icon": "⚾",
+    "color": "#1d4ed8",
+    "provider": "apisports",
+    "apiSportsLeague": "baseball",
+    "enabled": true,
+    "hasLive": true,
+    "description": "Baseball live scores including MLB and international leagues."
+  },
+  {
+    "key": "table-tennis",
+    "name": "Table Tennis",
+    "icon": "🏓",
+    "color": "#be123c",
+    "provider": "thesportsdb",
+    "enabled": true,
+    "hasLive": false,
+    "description": "Table tennis tournament results and schedules."
+  },
+  {
+    "key": "golf",
+    "name": "Golf",
+    "icon": "⛳",
+    "color": "#15803d",
+    "provider": "thesportsdb",
+    "enabled": true,
+    "hasLive": false,
+    "description": "Golf tournament leaderboards and schedules."
+  },
+  {
+    "key": "boxing-mma",
+    "name": "Boxing / MMA",
+    "icon": "🥊",
+    "color": "#9f1239",
+    "provider": "thesportsdb",
+    "enabled": true,
+    "hasLive": false,
+    "description": "Boxing and MMA fight cards, results, and upcoming bouts."
+  },
+  {
+    "key": "athletics",
+    "name": "Athletics",
+    "icon": "🏃",
+    "color": "#0284c7",
+    "provider": "thesportsdb",
+    "enabled": true,
+    "hasLive": false,
+    "description": "Track and field events, results, and schedules."
+  }
+]
